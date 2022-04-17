@@ -25,7 +25,7 @@ function SignIn() {
     <>
       <div className="pageContainer">
         <header>
-          <p className="pageHeader"></p>
+          <p className="pageHeader">Welcome Back!</p>
         </header>
         <form>
           <input
@@ -64,7 +64,7 @@ function SignIn() {
         </form>
         {/* Google OAuth */}
 
-        <Link to="sign-up" className="registerLink">
+        <Link to="/sign-up" className="registerLink">
           Sign Up Instead
         </Link>
       </div>
