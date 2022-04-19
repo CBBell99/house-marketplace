@@ -36,7 +36,7 @@ function Profile() {
       }
     } catch (error) {
       console.log(error);
-      toast.error("Could not updateprofile details");
+      toast.error("Could not update profile details");
     }
   };
 
