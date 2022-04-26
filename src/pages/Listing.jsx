@@ -42,15 +42,11 @@ function Listing() {
     return <Spinner />;
   }
 
-  console.log(listing.imageUrls);
-
   return (
     <main>
       <Swiper
         slidesPerView={1}
         pagination={{ clickable: true }}
-        navigation
-        modules={[Pagination]}
         style={{ height: "300px" }}
       >
         {listing.imageUrls.map((url, index) => (
