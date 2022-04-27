@@ -200,6 +200,10 @@ function CreateListing() {
     }
   };
 
+  if (loading) {
+    return <Spinner />;
+  }
+
   return (
     <div className="profile">
       <header>
