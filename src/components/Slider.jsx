@@ -42,10 +42,14 @@ function Slider() {
     return <Spinner />;
   }
 
+  if (listings.length === 0) {
+    return <></>;
+  }
+
   return (
     listings && (
       <>
-        <p className="exdploreHeading">Recommended</p>
+        <p className="exploreHeading">Recommended</p>
         <Swiper
           slidesPerView={1}
           pagination={{ clickable: true }}
