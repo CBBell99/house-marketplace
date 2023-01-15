@@ -7,7 +7,7 @@ function Explore() {
   return (
     <div className="explore">
       <header>
-        <p className="pageHeader">Explore Test</p>
+        <p className="pageHeader">Explore</p>
       </header>
       <main>
         <Slider />
